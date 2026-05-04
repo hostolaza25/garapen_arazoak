@@ -22,10 +22,11 @@ int[] balioak = { 10, 20, 30, 40, 50 };
 // 2. AKATSA
 int kontagailua = 0;
 
-while (kontagailua < 5)
-{
-    Console.WriteLine($"4. Kontagailua: {kontagailua}");
-}
+            while (kontagailua < 5)
+            {
+                Console.WriteLine($"2. Kontagailua: {kontagailua}");
+                kontagailua++; 
+            }
 
 
 // 3. AKATSA
