@@ -8,15 +8,15 @@ namespace BukleAkats
         {
 // 1. AKATSA
 int[] balioak = { 10, 20, 30, 40, 50 };
-int batura = 0;
+            int batura = 0;
 
-for (int i = 0; i < balioak.Length; i++)
-{
-    batura += balioak[i];
-}
+            for (int i = 0; i < balioak.Length; i++)
+            {
+                batura += balioak[i];
+            }
 
-int batazBestekoa = batura;
-Console.WriteLine($"2. Batez bestekoa: {batazBestekoa}");
+            double batazBestekoa = (double)batura / balioak.Length; 
+            Console.WriteLine($"1. Batez bestekoa: {batazBestekoa}");
 
 
 // 2. AKATSA
