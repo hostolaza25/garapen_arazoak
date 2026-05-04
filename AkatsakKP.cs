@@ -31,16 +31,13 @@ int kontagailua = 0;
 
 // 3. AKATSA
 int[] arrayZenbakiak = { 1, 2, 3, 4, 5 };
-Console.WriteLine("5. Zenbakien karratuak:");
+            Console.WriteLine("3. Zenbakien karratuak:");
 
-int karratua = 0;
-
-foreach (int zenbakia in arrayZenbakiak)
-{
-    karratua = zenbakia * zenbakia;
-}
-
-Console.WriteLine($"Zenbakiaren karratua: {karratua}");
+            foreach (int zenbakia in arrayZenbakiak)
+            {
+                int karratua = zenbakia * zenbakia;
+                Console.WriteLine($"Zenbakia: {zenbakia} -> Karratua: {karratua}");
+            }
 
 
 // 4. AKATSA
